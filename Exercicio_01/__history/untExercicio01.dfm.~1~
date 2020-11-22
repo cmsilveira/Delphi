@@ -1,0 +1,46 @@
+object frmExercicio01: TfrmExercicio01
+  Left = 0
+  Top = 0
+  Caption = 'Exerc'#237'cio 01'
+  ClientHeight = 124
+  ClientWidth = 404
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblRotulo: TLabel
+    Left = 19
+    Top = 8
+    Width = 8
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btnHabilitado: TButton
+    Left = 19
+    Top = 63
+    Width = 75
+    Height = 25
+    Caption = 'Habilitado'
+    TabOrder = 0
+    OnClick = btnHabilitadoClick
+  end
+  object btnDesabilitado: TButton
+    Left = 128
+    Top = 63
+    Width = 75
+    Height = 25
+    Caption = 'Desabilitado'
+    TabOrder = 1
+    OnClick = btnDesabilitadoClick
+  end
+end

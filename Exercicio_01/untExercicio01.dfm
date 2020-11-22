@@ -1,0 +1,58 @@
+object frmExercicio01: TfrmExercicio01
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Exerc'#237'cio 01'
+  ClientHeight = 124
+  ClientWidth = 331
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblRotulo: TLabel
+    Left = 31
+    Top = 14
+    Width = 144
+    Height = 33
+    Caption = 'The label is:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btnEnabled: TButton
+    Left = 19
+    Top = 63
+    Width = 75
+    Height = 25
+    Caption = 'Enabled'
+    TabOrder = 0
+    OnClick = btnEnabledClick
+  end
+  object btnDisabled: TButton
+    Left = 128
+    Top = 63
+    Width = 75
+    Height = 25
+    Caption = 'Disabled'
+    TabOrder = 1
+    OnClick = btnDisabledClick
+  end
+  object btnClear: TButton
+    Left = 240
+    Top = 63
+    Width = 75
+    Height = 25
+    Caption = 'Clear'
+    TabOrder = 2
+    OnClick = btnClearClick
+  end
+end
